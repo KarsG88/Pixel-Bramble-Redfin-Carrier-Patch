@@ -13,6 +13,8 @@ rm /data/vendor/radio/qcril_backup.db
 REPLACE="
 /vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw
 /system/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw
+/vendor/radio/qcril_database
+/system/vendor/radio/qcril_database
 "
 
 unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
